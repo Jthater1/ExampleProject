@@ -1,0 +1,7 @@
+** sch_path: /home/jthater/EXProject/xschem/Inverter.sch
+.subckt Inverter Vin VDD VSS Vout
+*.PININFO Vin:I VDD:B VSS:B Vout:O
+XM1 Vout Vin VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.75 nf=1 m=1
+XM2 Vout Vin VDD VDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1.5 nf=1 m=1
+.ends
+.end
